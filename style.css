@@ -2,12 +2,12 @@
     padding: 70px;
  }
 
-    .submit-area{
-        padding: 40px;
-        margin-top: 50px;
-        border-radius: 10px;
-        box-shadow: 5px 5px 10px gray;
-    }
+.submit-area{
+   padding: 40px;
+   margin-top: 50px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px gray;
+}
 .status{
     margin: 0 20px;
     color: white;
@@ -26,4 +26,23 @@
 .Balance{
    
    background-color: orange;
+}
+
+
+/* error message */
+
+#err p {
+   text-align: center;
+   box-shadow: 3px 5px 10px #ff8e8e;
+   background: #fb0000ba;
+   width: 267px;
+   margin: auto;
+   padding: 9px 8px;
+   margin-right: 15%;
+   font-family: monospace;
+   color: white;
+   margin-top: 18px;
+   border-radius: 12px;
+   transition: all .4s;
+   opacity: 0;
 }
